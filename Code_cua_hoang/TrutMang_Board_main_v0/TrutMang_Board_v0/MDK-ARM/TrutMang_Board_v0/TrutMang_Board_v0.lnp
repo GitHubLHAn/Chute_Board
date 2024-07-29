@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"trutmang_board_v0\startup_stm32f103xb.o"
+"trutmang_board_v0\st7920.o"
+"trutmang_board_v0\rs485.o"
+"trutmang_board_v0\main.o"
+"trutmang_board_v0\stm32f1xx_it.o"
+"trutmang_board_v0\stm32f1xx_hal_msp.o"
+"trutmang_board_v0\stm32f1xx_hal_gpio_ex.o"
+"trutmang_board_v0\stm32f1xx_hal_tim.o"
+"trutmang_board_v0\stm32f1xx_hal_tim_ex.o"
+"trutmang_board_v0\stm32f1xx_hal.o"
+"trutmang_board_v0\stm32f1xx_hal_rcc.o"
+"trutmang_board_v0\stm32f1xx_hal_rcc_ex.o"
+"trutmang_board_v0\stm32f1xx_hal_gpio.o"
+"trutmang_board_v0\stm32f1xx_hal_dma.o"
+"trutmang_board_v0\stm32f1xx_hal_cortex.o"
+"trutmang_board_v0\stm32f1xx_hal_pwr.o"
+"trutmang_board_v0\stm32f1xx_hal_flash.o"
+"trutmang_board_v0\stm32f1xx_hal_flash_ex.o"
+"trutmang_board_v0\stm32f1xx_hal_exti.o"
+"trutmang_board_v0\stm32f1xx_hal_uart.o"
+"trutmang_board_v0\system_stm32f1xx.o"
+--strict --scatter "TrutMang_Board_v0\TrutMang_Board_v0.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TrutMang_Board_v0.map" -o TrutMang_Board_v0\TrutMang_Board_v0.axf
